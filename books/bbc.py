@@ -9,8 +9,8 @@ class BBCChinese(BaseFeedBook):
     title                 = u'BBC中文网'
     description           = u'英国广播公司中文网站。'
     language              = 'zh-Hans'
-    feed_encoding         = "utf-8"
-    page_encoding         = "utf-8"
+    feed_encoding         = "zh-Hans"
+    page_encoding         = "zh-Hans"
     mastheadfile          = "mh_bbc.gif"
     coverfile             = "cv_bbc.jpg"
     oldest_article        = 1
