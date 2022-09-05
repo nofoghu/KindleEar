@@ -16,7 +16,7 @@ class BBCChinese(BaseFeedBook):
     oldest_article        = 1
     
     feeds = [
-            (u'BBC Chinese', 'http://www.bbc.co.uk/zhongwen/simp/index.xml'),
+            (u'BBC Chinese', 'https://feeds.bbci.co.uk/zhongwen/simp/rss.xml'),
             ]
     
     def fetcharticle(self, url, opener, decoder):
