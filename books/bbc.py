@@ -5,7 +5,7 @@ from base import BaseFeedBook
 def getBook():
     return BBCChinese
 
-class FTChinese(BaseFeedBook):
+class BBCChinese(BaseFeedBook):
     title                 = u'BBC中文网'
     description           = u'英国广播公司中文网站。'
     language              = 'zh-cn'
@@ -16,7 +16,7 @@ class FTChinese(BaseFeedBook):
     oldest_article        = 1
     
     feeds = [
-            (u'BBC Chinese', 'https://www.bbc.com/zhongwen/simp'),
+            (u'BBC Chinese', 'http://www.bbc.co.uk/zhongwen/simp/index.xml'),
             ]
     
     def fetcharticle(self, url, opener, decoder):
